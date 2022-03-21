@@ -24,7 +24,4 @@ RUN \
 # Install mill
 RUN \
   curl -L -o /usr/local/bin/mill https://github.com/lihaoyi/mill/releases/download/$MILL_VERSION/$MILL_VERSION && \
-  chmod +x /usr/local/bin/mill && \
-  touch build.sc && \
-  mill -i resolve _ && \
-  rm build.sc
+  chmod +x /usr/local/bin/mill
