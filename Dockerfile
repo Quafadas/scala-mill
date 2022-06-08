@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM openjdk:17
+FROM timbru31/java-node:17
 
 # Env variables
 ENV SCALA_VERSION 2.13.8
