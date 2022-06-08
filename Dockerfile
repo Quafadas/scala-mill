@@ -12,7 +12,7 @@ ENV SCALA_VERSION 2.13.8
 ENV MILL_VERSION 0.10.4
 
 # Define working directory
-WORKDIR /root
+# WORKDIR /root
 
 RUN npm --version
 
