@@ -14,6 +14,8 @@ ENV MILL_VERSION 0.10.4
 # Define working directory
 WORKDIR /root
 
+RUN npm --version
+
 # Install Scala
 ## Piping curl directly in tar
 RUN \
