@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM timbru31/java-node:17
+FROM timbru31/java-node:17-jdk-gallium
 
 # Env variables
 ENV SCALA_VERSION 2.13.8
