@@ -9,7 +9,7 @@ FROM timbru31/java-node:17-jdk-gallium
 
 # Env variables
 ENV SCALA_VERSION 2.13.10
-ENV MILL_VERSION 0.10.8
+ENV MILL_VERSION 0.10.10
 
 # Define working directory
 # WORKDIR /root
