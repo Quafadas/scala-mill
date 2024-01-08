@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM timbru31/java-node:17-jdk-hydrogen
+FROM timbru31/java-node:17-jdk-iron
 
 # Env variables
 ENV SCALA_VERSION 3.3.1
