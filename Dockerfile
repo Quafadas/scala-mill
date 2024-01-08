@@ -9,7 +9,7 @@ FROM timbru31/java-node:17-jdk-hydrogen
 
 # Env variables
 ENV SCALA_VERSION 2.13.10
-ENV MILL_VERSION 0.11.2
+ENV MILL_VERSION 0.11.6
 
 # Define working directory
 # WORKDIR /root
