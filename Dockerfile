@@ -9,7 +9,7 @@ FROM timbru31/java-node:17-jdk-iron
 
 # Env variables
 ENV SCALA_VERSION 3.3.1
-ENV MILL_VERSION 0.11.6-51-47c37f
+ENV MILL_VERSION 0.11.8
 
 # Define working directory
 # WORKDIR /root
